@@ -9,7 +9,6 @@
 
 
 program Difference
-
     implicit none
     !character(len=30), parameter::message="What is the difference between" 
     !write(*, '(A)') message ! no leading space prepended 
