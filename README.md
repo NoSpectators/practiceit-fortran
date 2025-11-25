@@ -1,5 +1,13 @@
-# practiceit-fortran
+# ## practiceit-fortran
 
-##instructions: have binaries placed in a separate folder. 
-###place binaries/ on .gitignore
-###example: gfortran egg.f95 -o binaries/egg && ./binaries/egg
+### Instructions
+
+* Place compiled binaries in a separate `binaries/` folder.
+* Add the `binaries/` directory to your `.gitignore`.
+
+### Example
+
+```sh
+gfortran egg.f95 -o binaries/egg && ./binaries/egg
+```
+
