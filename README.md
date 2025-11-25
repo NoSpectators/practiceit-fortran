@@ -1,4 +1,4 @@
-# ## practiceit-fortran
+# practiceit-fortran
 
 ### Instructions
 
