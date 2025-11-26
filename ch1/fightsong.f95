@@ -36,16 +36,16 @@ program fightSong
     call go()
 end program fightSong
 
-subroutine go
+subroutine go()
     write(*,*) "Go, team, go!"
     write(*,*) "You can do it."
 end subroutine go
 
-subroutine printSpace
+subroutine printSpace()
     write(*,*)
 end subroutine printSpace
 
-subroutine best
+subroutine best()
     write(*,*) "You're the best,"
     write(*,*) "In the West."
 end subroutine best
