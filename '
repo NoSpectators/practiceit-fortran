@@ -1,0 +1,33 @@
+! Write a Fortran program called DollarFigure2 that uses a global constant
+! for the figure's height
+!
+! $$$$$$$**************$$$$$$$
+! **$$$$$$************$$$$$$**
+! ****$$$$$**********$$$$$****
+! ******$$$$********$$$$******
+! ********$$$******$$$********
+! **********$$****$$**********
+! ************$**$************
+!
+
+
+program DollarFigure2 
+    implicit none
+    integer :: i, j, numRows
+    numRows = 5 
+    do i = 0, numRows 
+        write(*, '(A)', advance='no') repeat('*',  2 * i )
+        !write(*, '(A)', advance='no') repeat("$", -1 * i + 8)
+        !write(*, '(A)', advance='no') repeat('*', -2 * i + 16) 
+        !write(*, '(A)', advance='no') repeat("$", -1 * i + 8)
+        !write(*, '(A)', advance='no') repeat('*',  2 * i - 2)
+        !write(*,*) ! new line
+        do j = 0, numRows
+            write(*, '(A)', advance='no') repeat("$", -1 * i + numRows)
+        enddo
+        
+        write(*,*)
+    enddo
+
+end program DollarFigure2
+
