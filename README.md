@@ -19,6 +19,7 @@ or reviewed by the University of Washington**.
 
 ```sh
 gfortran egg.f95 -o binaries/egg && ./binaries/egg
+```
 
 ### License
 This project is licensed under the MIT License. See the LICENSE file for details.
