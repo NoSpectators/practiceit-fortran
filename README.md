@@ -1,7 +1,9 @@
 # practiceit-fortran
 
-This repository contains **original Fortran implementations** of programming
-exercises inspired by *Practice-It* (University of Washington).  
+This repository contains **original solution implementations** written by the author
+in Fortran.  Problem descriptions are adapted from *Practice-It* (University of Washington) and
+are not included verbatim.  
+
 All solution code is written independently and is **not affiliated with or
 endorsed by the University of Washington**.
 
