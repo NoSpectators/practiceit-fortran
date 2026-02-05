@@ -27,14 +27,14 @@ logical function allDigitsOdd(num) result (odd)
     odd = .true.
 
     ! forever loop  
-    do while (n > 0) 
+    do while (n >= 0) 
         digit = mod(n, 10) ! last digit in num
-        if (mod(digit, 2) == 0) then 
+        if (mod(digit, 2) == 0)  then 
             odd = .false.
             return       ! exit function 
         end if  
         n = n / 10 ! slice last digit
-        if (n == 0) exit ! exit loop
+        if (n == 0)  exit ! exit loop
     end do 
 
 
