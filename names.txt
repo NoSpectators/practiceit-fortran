@@ -1,0 +1,6 @@
+John 15
+Mary 16
+David 17
+Susan 14
+Alex 16
+Emma 22
