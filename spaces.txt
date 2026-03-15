@@ -1,0 +1,6 @@
+Hi this is John.
+There  are too    many spaces
+in this file!  I like to test code 
+using Fortran.
+
+even a blank line is  here with a blank space!
